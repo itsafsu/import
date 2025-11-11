@@ -19,3 +19,8 @@ ABOUT_TEXT = """ <blockquote>
 ‣ ᴘʀɪᴍᴀʀʏ ᴅʙ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
 ‣ sᴇᴄᴏɴᴅᴀʀʏ ᴅʙ : <a href='https://www.freesqldatabase.com/'>sᴏ̨ʟ ᴅʙ</a>
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/quickfastt'>ǫᴜɪᴄᴋ ꜰᴀsᴛ</a></b></blockquote>"""
+
+ABOUT_KEYBOARD = InlineKeyboardMarkup([
+      [InlineKeyboardButton("⚙️Help", callback_data="help|"),
+      InlineKeyboardButton("🤠About", callback_data="about|")]
+    ])

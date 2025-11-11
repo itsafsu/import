@@ -4,7 +4,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
 )
 
-ADMIN_TEXT =""" **𝒯𝐻𝐼𝒮 𝒴𝒪𝒰𝑅 𝒜𝒟𝑀𝐼𝒩 𝒞𝒪𝑀𝑀𝒜𝒩𝒟𝒮**
+ADMIN_TEXT ="""𝗧𝗛𝗜𝗦 𝗜𝗦 𝗠𝗬 𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
 /setskip - To Skip Indexing File range
 /broadcast - To broadcast Message To users 
@@ -28,8 +28,7 @@ ABOUT_TEXT = """ <blockquote>
 
 ABOUT_KEYBOARD = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("💻 Source Code", url="https://github.com/CyberTG/SeriesFilterBot")],
-        [InlineKeyboardButton("🔰 Home", callback_data="cyber|")],
-        [InlineKeyboardButton("❤️‍🩹 Developer", url="https://t.me/CyberTGx")],
+        [InlineKeyboardButton("💻 Source Code", url="YOUR_SOURCE_CODE_LINK_HERE")],
+        [InlineKeyboardButton("🔰 Home", callback_data="cyber|"), InlineKeyboardButton("❤️‍🩹 Developer", url="https://t.me/CyberTGx")],
     ]
 )

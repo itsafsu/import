@@ -1,3 +1,9 @@
+from pymongo import TEXT 
+from pyrogram.types import (
+    InlineKeyboardMarkup,
+    InlineKeyboardButton,
+)
+
 ADMIN_TEXT =""" **𝒯𝐻𝐼𝒮 𝒴𝒪𝒰𝑅 𝒜𝒟𝑀𝐼𝒩 𝒞𝒪𝑀𝑀𝒜𝒩𝒟𝒮**
 
 /setskip - To Skip Indexing File range
@@ -20,7 +26,9 @@ ABOUT_TEXT = """ <blockquote>
 ‣ sᴇᴄᴏɴᴅᴀʀʏ ᴅʙ : <a href='https://www.freesqldatabase.com/'>sᴏ̨ʟ ᴅʙ</a>
 ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/quickfastt'>ǫᴜɪᴄᴋ ꜰᴀsᴛ</a></b></blockquote>"""
 
-ABOUT_KEYBOARD = InlineKeyboardMarkup([
-      [InlineKeyboardButton("⚙️Help", callback_data="help|"),
-      InlineKeyboardButton("🤠About", callback_data="about|")]
-    ])
+ABOUT_KEYBOARD = InlineKeyboardMarkup(
+    [
+        [InlineKeyboardButton("📢 Updates", url="https://t.me/YourChannel")],
+        [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/YourUsername")],
+    ]
+)

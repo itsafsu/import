@@ -33,7 +33,7 @@ ABOUT_KEYBOARD = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton("🔰 Home", callback_data="cyber|home"),
-            InlineKeyboardButton("❤️‍🩹 Developer", url="https://t.me/CyberTGx")
+            InlineKeyboardButton("❤️‍🩹 Support", url="https://t.me/TomXSupport")
         ],
     ]
 )

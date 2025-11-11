@@ -28,7 +28,7 @@ ABOUT_TEXT = """ <blockquote>
 
 ABOUT_KEYBOARD = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton("💻 Source Code", url="YOUR_SOURCE_CODE_LINK_HERE")],
+        [InlineKeyboardButton("💻 Source Code", url="https://github.com/CyberTG/SeriesFilterBot")],
         [InlineKeyboardButton("🔰 Home", callback_data="cyber|"), InlineKeyboardButton("❤️‍🩹 Developer", url="https://t.me/CyberTGx")],
     ]
 )

@@ -32,7 +32,7 @@ ABOUT_KEYBOARD = InlineKeyboardMarkup(
             InlineKeyboardButton("💻 Source Code", url="https://github.com/CyberTG/SeriesFilterBot")
         ],
         [
-            InlineKeyboardButton("🔰 Home", callback_data="cyber_home"),
+            InlineKeyboardButton("🔰 Home", callback_data="cyber|"),
             InlineKeyboardButton("❤️‍🩹 Developer", url="https://t.me/CyberTGx")
         ],
     ]
